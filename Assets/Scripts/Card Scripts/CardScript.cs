@@ -5,8 +5,8 @@ using UnityEngine;
 public class CardScript : MonoBehaviour,ICard
 {
 
-    public int cardCost { get; set; }
-    public int ID { get; set; }
+    public int cardCost;
+    public int ID;
 
     public void Draw()
 	{
