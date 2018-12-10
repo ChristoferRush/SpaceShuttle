@@ -7,3 +7,4 @@ public interface ICard
     void Play();
     void Draw();
 }
+

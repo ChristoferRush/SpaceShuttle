@@ -2,14 +2,19 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class CardScript : MonoBehaviour,ICard {
+public class CardScript : MonoBehaviour,ICard
+{
 
-	public void Draw()
+    public int cardCost { get; set; }
+    public int ID { get; set; }
+
+    public void Draw()
 	{
 		
 	}
 
-	public void Play()
+
+    public void Play()
 	{
 		
 	}
